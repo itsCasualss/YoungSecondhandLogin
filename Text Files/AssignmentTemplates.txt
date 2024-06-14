@@ -2,7 +2,7 @@ public class AssignmentName : IAssignment
 {
     public void Run()
     {
-        System.Console.WriteLine("Running Assignment 2"); // remove before finishing code
-        // Assignment 2 code goes here
+        System.Console.WriteLine("Running Assignment"); // remove before finishing code
+        // Assignment code goes here
     }
 } //Remove a Bracket b/c error
