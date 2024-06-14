@@ -1,0 +1,8 @@
+public class AssignmentName : IAssignment
+{
+    public void Run()
+    {
+        System.Console.WriteLine("Running Assignment 2"); // remove before finishing code
+        // Assignment 2 code goes here
+    }
+} //Remove a Bracket b/c error

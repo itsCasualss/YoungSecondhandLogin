@@ -1,13 +1,13 @@
 using System;
-using System.Diagnostics;
 
-namespace InchesToCentimeters
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Process.Start("inchestocentimeters.exe");
-        }
+        // Instantiate the specific assignment you want to run
+        IAssignment assignment = new InchesToCentimeters(); // Change this to which assignment program as needed
+
+        // Run the selected assignment
+        assignment.Run();
     }
 }
