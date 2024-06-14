@@ -1,4 +1,4 @@
-public class InchesToCentimeters : IAssignment
+public class InchesToCentimetersInteractive : IAssignment
 {
     public void Run()
     {
