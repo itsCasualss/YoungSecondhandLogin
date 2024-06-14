@@ -5,7 +5,7 @@ class Program
     static void Main(string[] args)
     {
         // Instantiate the specific assignment you want to run
-        IAssignment assignment = new InchesToCentimeters(); // Change this to which assignment program as needed
+        IAssignment assignment = new MoveEstimator(); // Change this to which assignment program as needed
 
         // Run the selected assignment
         assignment.Run();
