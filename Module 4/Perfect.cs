@@ -32,7 +32,7 @@ public class Perfect : IAssignment //Assigned the class to the interface
                     }
                 }
             }
-            static bool IsPerfect(int num)  // Method to check if a number is perfect
+            static bool IsPerfect(int num)  // Method to check if a number is perf
             {
                 int sumOfDivisors = 0;
                 for (int i = 1; i < num; i++)
