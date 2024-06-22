@@ -44,6 +44,10 @@ public class Perfect : IAssignment //Assigned the class to the interface
                 }
                 return sumOfDivisors == num;
             }
+
+
         }
+
+
     
 // Unit Test Inputs: 496 68 5112 8128
