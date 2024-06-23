@@ -2,7 +2,7 @@
 Program
   Main(args)
     Declare variable assignment of type IAssignment
-    Instantiate object of class InchestoCentimetersInteractive and assign to Iassignement
+    Instantiate object of class ________________ and assign to Iassignement
     Call method Run on assignment
   End Main
 End Program

@@ -16,7 +16,7 @@ Dictionary<char, decimal> salesTotals = new Dictionary<char, decimal>(); // call
             initial = Console.ReadKey().KeyChar;
 
             initial = char.ToUpper(initial); //convert the users input to uppercase
-            
+
             // Check if the initial is already present in the dictionary and if it's not an uppercase letter
 
             if (salesTotals.ContainsKey(initial) &&!char.IsUpper(initial))
@@ -32,12 +32,12 @@ Dictionary<char, decimal> salesTotals = new Dictionary<char, decimal>(); // call
             }
 
             Console.Write("\n" + "\nEnter the amount of the sale for {0}: ", initial); //the sale has been processed.
-            
+
 
             decimal saleAmount; //declares decimal variable to store the sales amount 
-            
+
             while (!decimal.TryParse(Console.ReadLine(), out saleAmount)) //Tries to parse the user's input as a decimal. If unsuccessful, prompts the user again.
-            
+
             {
                 Console.WriteLine("Please enter a valid numeric value for the sale amount:");
             }
@@ -75,18 +75,18 @@ Dictionary<char, decimal> salesTotals = new Dictionary<char, decimal>(); // call
             }
         }
 
-        
+
         string formattedGrandTotal = grandTotal.ToString("C"); 
         string formattedHighestTotal = highestTotal.ToString("C");// Formatting grandTotal and highestTotal as currency
-        
+
         Console.WriteLine($"\nGrand Total: " + formattedGrandTotal);
         Console.WriteLine($"Highest seller: {highestSellerInitial} with a total of " + formattedHighestTotal + "\n"); // Outputs the grand total and the details of the highest seller, formatted as currency.
     }
 }
-        
 
 
 
 
-    
+
+
 
