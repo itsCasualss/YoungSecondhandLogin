@@ -2,7 +2,7 @@
 Program
   Main(args)
     Declare variable assignment of type IAssignment
-    Instantiate object of class ________________ and assign to Iassignement
+    Instantiate object of class ________________ and assign to Iassignment
     Call method Run on assignment
   End Main
 End Program

@@ -7,7 +7,7 @@ class Program
     {
         // Instantiate the specific assignment you want to run
         
-        IAssignment assignment = new TemperaturesComparison(); // Change this to which assignment program as needed
+        IAssignment assignment = new Lyrics(); // Change this to which assignment program as needed
 
         // Run the selected assignment
         assignment.Run();
